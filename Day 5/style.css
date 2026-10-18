@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ===== General ===== */
+body{
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.pri-color{
+    color: #651FFF;
+}
+
+.yellow-color{
+    color: #FFEB3B;
+}
+
+.blue-color{
+    color: #00E5FF;
+}
+
+.green-color{
+    color: #34D399;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Make the Bootstrap blue button purple */
+.btn-primary{
+    background-color: #651FFF;
+    border-color: #651FFF;
+}
+
+.btn-primary:hover{
+    background-color: #5214d6;
+    border-color: #5214d6;
+}
+
+/* ===== Banner ===== */
+.banner{
+    font-family: Poppins, sans-serif;
+    padding:100px 0;
+    background-color: #EBE5FA;
+}
+
+.banner h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.main{
+    padding: 100px 0;
+}
+
+.banner p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 42px;
+    color: #5C5F6E;
+    line-height: 28px;
+}
+
+/* ===== Lightning ===== */
+.lightning{
+    font-family: Poppins, sans-serif;
+    padding:100px 0;
+}
+
+.lightning-wrapper h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.lightning-wrapper p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 42px;
+    color: #838696;
+    line-height: 28px;
+}
+
+.lightning-content > div > div > div{
+    padding: 45px 45px;
+    border-radius: 24px;
+    color:#EBE5FA;
+    background-color: #651FFF;
+    height: 100%;
+}
+
+.lightning-content h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.lightning-content p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#ECECFE;
+}
+
+.lightning-content a{
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color:#ECECFE;
+    margin-top: 12px;
+}
+
+/* ===== Productivity ===== */
+.productivity{
+    font-family: Poppins, sans-serif;
+    padding:100px 0 50px;
+}
+
+.productivity-wrapper h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.productivity-content h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #651FFF;
+}
+
+.productivity-content p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#838696;
+}
+
+.productivity-content > div > div:nth-child(1) > div{
+    border-radius: 24px;
+    background-color: #FFF7ED;
+}
+
+.productivity-content > div > div:nth-child(2) > div{
+    border-radius: 24px;
+    background-color: #E0F7FA;
+}
+
+/* ===== Team ===== */
+.team{
+    padding: 0 0 100px;
+}
+
+.team-wrapper{
+    padding: 50px 50px;
+    background-color: #ECECFE;
+    border-radius: 24px;
+}
+
+.team h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #0B0D0E;
+    line-height: 56px;
+}
+
+.team p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #838696;
+    line-height: 32px;
+}
+
+/* ===== Storage ===== */
+.storage{
+    padding: 50px 0 100px;
+}
+
+.storage-wrapper h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.storage p{
+    font-size: 16px;
+    color: #838696;
+    line-height: 28px;
+}
+
+.storage h6{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.storage a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.storage-card{
+    display: flex;
+    gap: 20px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #F6F6FB;
+}
+
+.storage-card h5{
+    font-weight: 700;
+}
+
+.storage-card p{
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* ===== Pricing ===== */
+.pricing{
+    padding: 100px 0;
+    background-color: #00E5FF;
+}
+
+.pricing-wrapper h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.pricing-wrapper p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.pricing-storage{
+    padding: 50px;
+    background-color: #FFFFFF;
+    border-radius: 24px 0 0 24px;
+    height: 100%;
+}
+
+.pricing-storage h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.pricing-storage p{
+    font-size: 14px;
+    color: #838696;
+}
+
+.pricing-transfer{
+    padding: 50px;
+    background-color: #651FFF;
+    color: #FFFFFF;
+    border-radius: 0 24px 24px 0;
+    height: 100%;
+}
+
+.pricing-transfer p{
+    font-size: 14px;
+    color: #ECECFE;
+}
+
+
+.pricing-tag-1{
+    padding: 4px 14px;
+    color: #8C5CFF;
+    background-color: #ECECFE;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pricing-tag-2{
+    padding: 4px 14px;
+    color: #22D3EE;
+    background-color: #E0F7FA;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pricing-transfer small{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ===== How it works ===== */
+.works{
+    padding: 100px 0;
+}
+
+.works-wrapper h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.works p{
+    font-size: 16px;
+    color: #838696;
+    line-height: 28px;
+}
+
+.works h4{
+    font-weight: 700;
+}
+
+
+.works-step{
+    position: relative;
+}
+
+.works-icon{
+    width: 110px;
+    height: 110px;
+}
+
+.works-line-img{
+    position: absolute;
+    top: 55px;                  /* half of the icon height */
+    left: calc(50% + 75px);     /* start after the icon */
+    width: calc(100% - 150px);  /* stop before the next icon */
+    height: auto;
+}
+
+/* Vertical dashed line under steps 1 and 2 (small screens only) */
+.works-line::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 80px;
+    margin: 30px auto 0;
+    border-left: 2px dashed #5C5F6E;
+}
+
+@media (min-width: 992px){
+    .works-line::after{
+        display: none;
+    }
+}
+
+/* ===== Ready to get started ===== */
+.started{
+    padding: 0 0 100px;
+}
+
+.started-wrapper h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.started-wrapper p{
+    color: #838696;
+}
+
+.started-card{
+    padding: 45px;
+    border-radius: 24px;
+    height: 100%;
+}
+
+.started-card-purple{
+    background-color: #651FFF;
+    color: #ECECFE;
+}
+
+.started-card-light{
+    background-color: #ECECFE;
+}
+
+.started-card h3{
+    font-weight: 700;
+}
+
+.started-card-light p{
+    color: #5C5F6E;
+}
+
+/* ===== Footer ===== */
+.footer{
+    padding: 80px 0 30px;
+    background-color: #0F1033;
+    color: #FFFFFF;
+}
+
+.footer h6{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #B8B8CC;
+}
+
+.footer a{
+    font-size: 14px;
+    color: #B8B8CC;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #FFFFFF;
+}
+
+.footer li{
+    margin-bottom: 10px;
+}
+
+.footer-bottom{
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #1A284E;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 768px){
+    .banner h1,
+    .lightning-wrapper h1,
+    .productivity-wrapper h1,
+    .storage-wrapper h1,
+    .works-wrapper h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .pricing-wrapper h1{
+        font-size: 36px;
+    }
+
+    .team h3{
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .team-wrapper,
+    .pricing-storage,
+    .pricing-transfer,
+    .started-card{
+        padding: 30px;
+    }
+
+    .pricing-storage,
+    .pricing-transfer{
+        border-radius: 24px;
+        margin-bottom: 20px;
+    }
+}

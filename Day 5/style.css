@@ -326,9 +326,9 @@ a {
 
 .works-line-img{
     position: absolute;
-    top: 55px;                  /* half of the icon height */
-    left: calc(50% + 75px);     /* start after the icon */
-    width: calc(100% - 150px);  /* stop before the next icon */
+    top: 55px;
+    left: 68%;    /* start a little after the icon */
+    width: 64%;   /* stop a little before the next icon */
     height: auto;
 }
 
